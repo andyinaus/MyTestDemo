@@ -1,0 +1,29 @@
+#Build artifacts general
+src/**/obj/**
+src/**/bin/**
+src/packages/**
+src/TestResults/**
+
+#VStudio artifacts
+*.suo
+*.user
+src/.vs/**
+
+## generated css
+src/Netteller.Nac/Content/*.css
+src/Netteller.Web/Content/*.css
+!src/Netteller.Web/Content/semantic.css
+!src/Netteller.Web/Content/semantic.min.css
+
+#Added buy raven package.. gah :(
+*/Netteller.Nac.Tests/Raven.Studio.Html5.zip
+*/Netteller.Web.Tests/Raven.Studio.Html5.zip
+*/Netteller.Intergration.Tests/Raven.Studio.Html5.zip
+*/Netteller.Domain.Tests/Raven.Studio.Html5.zip
+
+#Logs
+src/Netteller.Web/App_Data/Logs/*.*
+src/Netteller.NAC/App_Data/Logs/*.*
+*.svclog
+/src/Netteller.NAC/Content/Site.css
+/src/Netteller.NAC/Content/Bootstrap.css

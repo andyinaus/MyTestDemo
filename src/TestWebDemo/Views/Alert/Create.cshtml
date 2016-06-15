@@ -1,0 +1,15 @@
+﻿@model TestWebDemo.Models.AlertViewModel
+
+@{
+    ViewBag.Title = "Create Alert";
+}
+
+@using (Html.BeginForm("Create", "Alert", FormMethod.Post, new {@class = "form-horizontal"}))
+{
+    @Html.LabelFor(m => m.Title, new { @class = "form-control" })
+    @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+    @Html.LabelFor(m => m.Content, new { @class = "form-control" })
+    @Html.TextAreaFor(m => m.Content, new { @class = "form-control" })
+
+    <input type="submit" class="btn btn-primary" value="Create" />
+}

@@ -1,2 +1,2 @@
 # MyTestDemo
-To indicate the double de-serialization issue
+To indicate the RavenDB double de-serialization issue
